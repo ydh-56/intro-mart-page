@@ -30,7 +30,11 @@ a:link{color: #212529;}
     bottom: 6%;
     left: 50%;
     transform:translate(-50%,0);
+    border: 1px solid red;
 }
+.icon-list {
+    float: left;
+ }
 /* CONTENT */
  #content{
     /* position: relative;
@@ -54,6 +58,7 @@ a:link{color: #212529;}
  .visual ul li img{
     position: absolute; right: 0; top:0; width: 100%;
  } */
+
  .visual {
      
  }
@@ -88,4 +93,9 @@ a:link{color: #212529;}
 }
 .footer-list a {
     margin-right: 15px;
+}
+
+@media only screen and (min-wdth:0) and (max-width:1023px) {
+    /* mobile */
+    .icon-list{  }
 }
