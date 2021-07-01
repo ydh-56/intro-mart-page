@@ -3,19 +3,34 @@ a:link{color: #212529;}
 
 
 .header-logo{
-    display: flex;
-    justify-content: center;
-    margin-top: 25px;    
+    /* display: flex;
+    justify-content: center; */
+    left: 50%;
+    transform: translate(-50%, -20%); 
     position: absolute;
     z-index: 10;
 }
 .logo-img {
-    background-color: #fff;
+    transform: scale(0.3);
+    /* background-color: #fff; */
     /* padding: 10px; */
-    border: 1px solid #fff;
 }
 
-
+.textbox {
+    position: absolute;
+    z-index: 3;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+.imgtest{ transform: scale(0.7);}
+.iconbox{
+    position: absolute;
+    z-index: 3;
+    bottom: 6%;
+    left: 50%;
+    transform:translate(-50%,0);
+}
 /* CONTENT */
  #content{
     /* position: relative;
