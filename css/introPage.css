@@ -53,20 +53,35 @@ a:link{color: #212529;}
     .box-ground .list4:last-child{margin-right: 0;}
     .img-box{
         position: absolute;
-        bottom: 23%;
+        bottom: 22%;
         left: 50%;
-        transform: translate(-50%, 23%);
+        transform: translate(-50%, 22%);
+    }
+    .box-ground {
+        /* width: 100%; */
+        /* max-width: 100%; */
+        /* height: auto; */
     }
     .box-ground .list4{
-        width: 32%;
-        min-width: 20%;
-        height: auto;
+        /* width: 32%; */
+        /* min-width: 20%; */
+        /* max-width: 100%; */
+        /* height: auto; */
+        /* border: 1px solid red; */
     }
+
     .img-fluid{
         cursor: pointer;
         /* width: 100%; */
-        max-width: 30%;
+        padding: 5px;
+        width: 28%;
+        min-width: 25%;
+        max-width: 100%;
         height: auto;
+        transition: all 0.3s;
+    }
+    .img-fluid:hover {
+        transform: scale(1.08);
     }
 
     /* slider */
@@ -85,7 +100,7 @@ a:link{color: #212529;}
     }
     /* footer */
     .footer{
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 100%;
         height: auto;
         padding:0.8% 0;
@@ -170,6 +185,10 @@ a:link{color: #212529;}
         max-width: 50%;
         height: auto;
         cursor: pointer;
+        transition: all 0.3s;
+    }
+    .img-fluid:hover {
+        transform: scale(1.08);
     }
 
     /* slider */
@@ -190,7 +209,7 @@ a:link{color: #212529;}
     .footer{
         padding:0.8% 0;
         margin: 0 auto;
-        border: 1px solid orange;
+        /* border: 1px solid orange; */
         width: 100%;
         height: auto;
     }
@@ -203,7 +222,7 @@ a:link{color: #212529;}
     .fAdress{
         padding-left: 2%;
         line-height: 1.7;
-        font-size: 1.3vh;
+        font-size: 1.4vh;
     }
 
 
