@@ -243,13 +243,15 @@ a:link{color: #212529;}
     }
     .img-box2{
         position: absolute;
-        top: 55%;
+        top: 60%;
         left: 50%;
-        transform: translate(-50%, -55%);
+        transform: translate(-50%, -60%);
     }
     .img-fluid{
-        width: 100%;
-        transform: scale(0.7);
+        width: 70%;
+        min-width: 70%;
+        max-width: 75%;
+        height: auto;
         cursor: pointer;
     }
 
@@ -275,7 +277,7 @@ a:link{color: #212529;}
     .footer-logo{
         width: 100%;
         max-width: 100%;
-        padding: 15px 0;
+        padding: 10px 0;
     }
     .fAdress{
         width: 100%;
