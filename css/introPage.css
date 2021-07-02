@@ -114,9 +114,10 @@ a:link{color: #212529;}
         float: right;    }
     .fAdress{
         padding-left: 5%;
-        line-height: 1.7;
+        line-height: 1.8;
         font-size: 1.3vh;
     }
+    .fHover { margin-right: 8px;}
 }
 
 /* 768 ~ 1559*/
