@@ -104,34 +104,8 @@ a:link{color: #212529;}
     .list11{width:91.5%;}/* (6.5 * 11) + ( 2* ( 11-1 ))   */
     .list12{width:100%;}/* (6.5 * 12) + ( 2* ( 12-1 ))   */
 
-     /* main-content */
-     /* #content{
-        position:relative;
-        z-index: 3;
-        text-align: center;
-    }
-    .main-box{
-        position: absolute;
-        z-index: 3;
-        left: 50%;
-        transform: translate(-50%, 0);
-    }
-    .top-logo{
-        margin-top: 2%;
-    }
-    .center-text{
-        margin-top: 16%;
-        margin-bottom: 3%;
-    }
-    .center-text{
-        transform: scale(0.9);
-    }
-    .box-ground{
-        width: 1200px;
-    }
-    .box-ground div{
-        width: 32%;
-    } */
+
+
     #content{
         text-align: center; 
     }
@@ -225,49 +199,6 @@ a:link{color: #212529;}
     .list12{width:100%;}
     .img-box {display: none;}
 
-     /* main-content */
-     /* #content{
-        position:relative;
-        z-index: 3;
-         width: 100%; 
-        text-align: center;
-        height: auto;
-    }
-    .main-box{
-        position: absolute;
-        z-index: 3;
-
-    }
-    .top-logo{
-        margin-top: 5%;
-    }
-    .center-text{
-
-        margin-top: 30%;
-        
-    }
-    .center-text img {
-        width: 100%;
-        max-height: 500px;
-        height: auto;
-    }
-    .img-box{
-        
-        width: 100%;
-        margin-top: 15%;
-    }
-    .box-ground{
-        margin-left: 15%;
-        width: 90%;
-        height: auto;
-    
-    }
-
-    .img-fluid{
-        margin: 0 auto;
-        width: 90%;
-        height: auto;
-    } */
 
     #content{
         text-align: center; 
@@ -309,10 +240,8 @@ a:link{color: #212529;}
     }
     .box-ground div{
         width: 32%;
-        /* border: 1px solid blue; */
     }
     .img-box2{
-        /* border: 1px solid red; */
         position: absolute;
         top: 55%;
         left: 50%;
@@ -351,7 +280,7 @@ a:link{color: #212529;}
     .fAdress{
         width: 100%;
         line-height: 1.7;
-        font-size: 12px;
+        font-size: 1.56vw;
     }
     .fAdress ul{margin: 0 auto; width: 85%;}
     .fAdress ul li span{display: none;}
