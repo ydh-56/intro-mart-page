@@ -117,7 +117,7 @@ a:link{color: #212529;}
         line-height: 1.8;
         font-size: 1.3vh;
     }
-    .fHover { margin-right: 8px;}
+    .fHover { margin-right: 10px;}
 }
 
 /* 768 ~ 1559*/
@@ -322,7 +322,7 @@ a:link{color: #212529;}
     }
     /* footer */
     .footer{
-        border: 1px solid yellow;
+        /* border: 1px solid yellow; */
         width: 100%;
         height: auto;
         padding:0.8% 0;
