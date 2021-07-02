@@ -103,7 +103,7 @@ a:link{color: #212529;}
         /* border: 1px solid yellow; */
         width: 100%;
         height: auto;
-        padding:0.8% 0;
+        padding-top:1.2%;
         margin: 0 auto;
     }
     .footer-logo{
@@ -208,7 +208,7 @@ a:link{color: #212529;}
     }
     /* footer */
     .footer{
-        padding:0.8% 0;
+        padding-top: 1.5%;
         margin: 0 auto;
         /* border: 1px solid orange; */
         width: 100%;
