@@ -43,9 +43,14 @@ a:link{color: #212529;}
         top: 0;
         left: 50%;
         transform: translate(-50%, 0);
-        border-radius: 0px 0px 30px 30px;
+        border-radius: 0px 0px 25px 25px;
         width: 13%;
         padding: 5px 0;
+    }
+    .logo-img{
+        width: 90%;
+        max-width: 95%;
+        height: auto;
     }
     .center-text{
         position: absolute;
@@ -65,9 +70,7 @@ a:link{color: #212529;}
         transform: translate(-50%, 22%);
     }
     .box-ground {
-        /* width: 100%; */
-        /* max-width: 100%; */
-        /* height: auto; */
+        /* margin-bottom: 50px; */
     }
     .box-ground .list4{
         /* width: 32%; */
@@ -158,8 +161,19 @@ a:link{color: #212529;}
         transform: translate(-50%, 0);
     }
     .top-logo{
+        background-color: #fff;
         position: absolute;
-        top: 3%;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        border-radius: 0px 0px 25px 25px;
+        width: 15%;
+        padding: 5px 0;
+    }
+    .logo-img{
+        width: 90%;
+        max-width: 95%;
+        height: auto;
     }
     .center-text{
         position: absolute;
@@ -172,9 +186,11 @@ a:link{color: #212529;}
     .box-ground{
         margin: 0 auto;
         width: 70%;
+        
     }
     .box-ground div{
         width: 32%;
+        margin-bottom: 10px;
     }
     .img-box2{
         position: absolute;
@@ -215,8 +231,8 @@ a:link{color: #212529;}
     }
     /* footer */
     .footer{
-        padding-top: 1.5%;
-        margin: 0 auto;
+        padding:1% 0;
+        margin: 0 auto 5px 0;
         /* border: 1px solid orange; */
         width: 100%;
         height: auto;
@@ -232,6 +248,7 @@ a:link{color: #212529;}
         line-height: 1.7;
         font-size: 1.4vh;
     }
+    .fAdress ul li a {margin-right: 10px;}
 
 
 
@@ -272,8 +289,19 @@ a:link{color: #212529;}
         transform: translate(-50%, 0);
     }
     .top-logo{
+        background-color: #fff;
         position: absolute;
-        top: 3%;
+        top: 0;
+        left: 50%;
+        transform: translate(-50%, 0);
+        border-radius: 0px 0px 30px 30px;
+        width: 70%;
+        padding: 5px 0;
+    }
+    .logo-img{
+        width: 80%;
+        max-width: 85%;
+        height: auto;
     }
     .center-text-box {
         width:95%;
